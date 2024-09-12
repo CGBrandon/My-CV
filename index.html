@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        header {
+            background-color: #b3b7ba; /* Gris claro */
+            color: #343a40; /* Gris oscuro para el texto */
+            border-bottom: 1px solid #b7c6c6; /* Línea sutil en la parte inferior */
+        }
+        .modal-content {
+            background-color: #f8f9fa; /* Gris claro para el modal */
+            color: #343a40; /* Gris oscuro para el texto del modal */
+        }
+        .modal-header .close {
+            color: #343a40; /* Gris oscuro para el botón de cerrar */
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- Header -->
+    <header class="text-center py-4">
+        <h1>Curriculum Vitae</h1>
+    </header>
+
+    <div class="container my-4">
+        <div class="row">
+            <!-- Left Section -->
+            <div class="col-md-6 left-section d-flex flex-column justify-content-center align-items-center">
+                <h2 class="cv-title">Mi Curriculum Vitae</h2>
+                <img src="sujeto.jpg" alt="Profile Image" class="img-fluid mb-4 rounded-circle" style="max-width: 250px; height: auto;"> <!-- Imagen ajustada -->
+                <ul class="list-unstyled text-center">
+                    <li><i class="fas fa-birthday-cake"></i> 21 años</li>
+                    <li><i class="fas fa-flag"></i> Nacionalidad mexicana</li>
+                    <li><i class="fas fa-calendar-alt"></i> 27/10/2002</li>
+                    <li><i class="fas fa-language"></i> Español, Inglés</li>
+                    <li><a href="#" data-toggle="modal" data-target="#portfolioModal"><i class="fas fa-briefcase"></i> Portafolio</a></li>
+                </ul>
+            </div>
+
+            <!-- Right Section -->
+            <div class="col-md-6 right-section">
+                <h2>BRANDON URIEL CALIXTO GARCIA</h2>
+                <h3>ESTUDIANTE</h3>
+
+                <h4>PERFIL PERSONAL</h4>
+                <p>Estudiante de 4º cuatrimestre de la carrera de Entornos Virtuales y Negocios digitales, cuento con conocimientos básicos en temas de Modelado, Animación, Programación web, Desarrollo de aplicaciones de AR y Diseño.</p>
+
+                <h4>FORMACIÓN ACADÉMICA</h4>
+                <p>ING. TECNOLOGÍAS DE LA INFORMACIÓN ENTORNOS VIRTUALES Y NEGOCIOS DIGITALES</p>
+                <p>Universidad Tecnologica De Tula-Tepeji (2023-Actualmente).</p>
+
+                <h4>EXPERIENCIA LABORAL</h4>
+                <p>EMPRESA (2020)</p>
+                <p>AYUDANTE GENERAL</p>
+                <p>Atención al cliente, trabajo bajo presión, resolución de problemas</p>
+
+                <h4>HABILIDADES</h4>
+                <ul>
+                    <li><i class="fas fa-check"></i> Proactivo</li>
+                    <li><i class="fas fa-check"></i> Capacidad de trabajar en equipo</li>
+                    <li><i class="fas fa-check"></i> Capacidad de adaptación</li>
+                    <li><i class="fas fa-check"></i> Resolución de problemas</li>
+                    <li><i class="fas fa-check"></i> Dominio de software de modelado y animación (Blender, Maya)</li>
+                </ul>
+
+               
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal -->
+    <div class="modal fade" id="portfolioModal" tabindex="-1" role="dialog" aria-labelledby="portfolioModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="portfolioModalLabel">Portafolio de Evidencias</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!-- Sketchfab Embed -->
+                    <p>trabajos en equipo: <a href="https://drive.google.com/file/d/1kJs9Eu-KekHvNbUAzF5GOvam4l-oe1kh/view?usp=sharing">StopMotion</a></p>
+                    <p>Personaje de juego AmongUS: <a href="https://drive.google.com/file/d/1yofn6H6jn8hVIpilEG5nR0JE8LiZksGs/view?usp=sharing">Descargar modelo blender</a></p> 
+                    <p>Logotipo de la marca Apple: <a href="https://drive.google.com/file/d/15x0jaWqSvVGx6GlesvZoGikIbEKlZ3at/view?usp=sharing">Descargar modelo blender</a></p> 
+                    <p>Diseño de comedor negro: <a href="https://drive.google.com/file/d/1Now-oYEM8AvXy_FBbmwHZpe93ntxuhns/view?usp=sharing">Descargar modelo blender</a></p> 
+                    <p>Pagina web de asignaturas (TI): <a href="https://cgbrandon.github.io/Herramientas-Tics/">Visitar sitio</a></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p><i class="fas fa-phone"></i> <a href="tel:+527731357457" class="text-white">+52 773 135 74 57</a></p>
+        <p><i class="fas fa-envelope"></i> <a href="mailto:ucalixto210@gmail.com" class="text-white">ucalixto210@gmail.com</a></p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

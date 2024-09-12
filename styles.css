@@ -1,0 +1,89 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* Left Section */
+.left-section {
+    background-color: #000000;
+    padding: 20px;
+    color: #fff;
+    border-radius: 10px 0 0 10px;
+}
+
+.cv-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.left-section ul li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+/* Right Section */
+.right-section {
+    background-color: #d4d4d4;
+    padding: 40px 30px;
+    border-radius: 0 10px 10px 0;
+    color: #000000;
+}
+
+.right-section h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.right-section h3 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.right-section h4 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 5px;
+}
+
+.right-section p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Section Spacing */
+.right-section ul {
+    margin-bottom: 30px;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.right-section ul li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.right-section ul li i {
+    margin-right: 10px;
+}
+
+/* Contact Info */
+.right-section .text-center p {
+    margin-bottom: 10px;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    .left-section, .right-section {
+        border-radius: 10px;
+    }
+}
